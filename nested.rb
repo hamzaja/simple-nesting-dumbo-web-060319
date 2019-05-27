@@ -109,7 +109,7 @@ def changing_alan
         }
      }
      programmer_hash[:dennis_ritchie][:known_for] = "GUI"
-     programmer_hash
+     programmer_hash[:dennis_ritchie][:known_for]
 end
 
 def adding_to_dennis
@@ -129,5 +129,5 @@ def adding_to_dennis
         }
      }
  programmer_hash[:dennis_ritchie][:languages].push("Assembly")
-  programmer_hash[:dennis_ritchie][:languages][1]
+  programmer_hash[
 end
